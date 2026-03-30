@@ -4,7 +4,7 @@ from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate, ChatMessagePromptTemplate
 if __name__ == "__main__":
     llm = ChatOllama(
-        model="deepseek-r1:8b",
+        model="qwen3.5:0.8b",
         temperature=0,
         )
 # # 系统模板

@@ -2,7 +2,8 @@
 from langchain_core.prompts import ChatPromptTemplate, ChatMessagePromptTemplate
 from langchain_ollama import ChatOllama
 llm = ChatOllama(
-    model="deepseek-r1:8b",
+    # model="deepseek-r1:8b",
+    model="qwen3.5:latest",
     temperature=0,
         )
 # 系统模板
